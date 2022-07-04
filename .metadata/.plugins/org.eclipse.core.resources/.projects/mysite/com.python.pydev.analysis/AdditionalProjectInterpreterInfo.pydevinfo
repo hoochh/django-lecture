@@ -1,0 +1,84 @@
+-- VERSION_5
+-- START DISKCACHE_3
+C:\LYK\work\django\.metadata\.plugins\org.eclipse.core.resources\.projects\mysite\com.python.pydev.analysis\v2_indexcache
+mysite.__init__|1656894426792324000|C:\LYK\work\django\mysite\mysite\__init__.py
+bookmark.views|1656899209764842000|C:\LYK\work\django\mysite\bookmark\views.py
+mysite.urls|1656899211056118000|C:\LYK\work\django\mysite\mysite\urls.py
+mysite.wsgi|1656894426791319000|C:\LYK\work\django\mysite\mysite\wsgi.py
+bookmark.migrations.0001_initial|1656897666137538000|C:\LYK\work\django\mysite\bookmark\migrations\0001_initial.py
+bookmark.migrations.__init__|1656895359895227000|C:\LYK\work\django\mysite\bookmark\migrations\__init__.py
+bookmark.models|1656896424985144000|C:\LYK\work\django\mysite\bookmark\models.py
+manage|1656894426785335000|C:\LYK\work\django\mysite\manage.py
+bookmark.tests|1656895359891227000|C:\LYK\work\django\mysite\bookmark\tests.py
+bookmark.apps|1656895359889232000|C:\LYK\work\django\mysite\bookmark\apps.py
+bookmark.admin|1656897409488688000|C:\LYK\work\django\mysite\bookmark\admin.py
+mysite.settings|1656895737056098000|C:\LYK\work\django\mysite\mysite\settings.py
+mysite.asgi|1656894426787343000|C:\LYK\work\django\mysite\mysite\asgi.py
+bookmark.__init__|1656895359894219000|C:\LYK\work\django\mysite\bookmark\__init__.py
+-- END DISKCACHE
+-- START DICTIONARY
+26
+10=bookmark.views
+15=C:\LYK\work\django\mysite\manage.py
+4=mysite.wsgi
+23=Migration
+18=bookmark.migrations.0001_initial
+17=C:\LYK\work\django\mysite\bookmark\migrations\0001_initial.py
+22=BookmarkConfig
+8=bookmark.models
+25=BookmakrLV
+9=C:\LYK\work\django\mysite\bookmark\views.py
+1=C:\LYK\work\django\mysite\mysite\settings.py
+14=bookmark.admin
+2=mysite.settings
+3=C:\LYK\work\django\mysite\mysite\wsgi.py
+20=mysite.urls
+24=BookmarkAdmin
+7=C:\LYK\work\django\mysite\bookmark\models.py
+13=C:\LYK\work\django\mysite\bookmark\admin.py
+26=BookmarkDV
+16=manage
+11=C:\LYK\work\django\mysite\bookmark\apps.py
+19=C:\LYK\work\django\mysite\mysite\urls.py
+21=Bookmark
+12=bookmark.apps
+5=C:\LYK\work\django\mysite\mysite\asgi.py
+6=mysite.asgi
+-- END DICTIONARY
+-- START TREE 1
+21
+all|1|ALLOWED_HOSTS!1^28#1*19@
+app|2|application!3^16#1*35@application!5^16#1*51@
+aut|1|AUTH_PASSWORD_VALIDATORS!1^101#1*19@
+bas|1|BASE_DIR!1^16#1*19@
+boo|5|Bookmark!7^4#7*65@BookmarkDV!9^10#7*81@BookmakrLV!9^7#7*81@BookmarkConfig!11^4#7*97@BookmarkAdmin!13^7#7*113@
+dat|1|DATABASES!1^82#1*19@
+deb|1|DEBUG!1^26#1*19@
+def|1|DEFAULT_AUTO_FIELD!1^124#1*19@
+ins|1|INSTALLED_APPS!1^41#1*19@
+lan|1|LANGUAGE_CODE!1^107#1*19@
+mai|1|main!15^7#5*130@
+mid|1|MIDDLEWARE!1^51#1*19@
+mig|1|Migration!17^6#7*145@
+roo|1|ROOT_URLCONF!1^53#1*19@
+sec|1|SECRET_KEY!1^23#1*19@
+sta|1|STATIC_URL!1^119#1*19@
+tem|1|TEMPLATES!1^69#1*19@
+tim|1|TIME_ZONE!1^109#1*19@
+url|1|urlpatterns!19^26#1*163@
+use|2|USE_I18N!1^111#1*19@USE_TZ!1^113#1*19@
+wsg|1|WSGI_APPLICATION!1^71#1*19@
+-- END TREE
+-- START TREE 2
+10
+__s|1|__str__!21&7^8#9*66@
+def|1|default_auto_field!22&11^5#5*99@
+dep|1|dependencies!23&17^11#5*147@
+ini|1|initial!23&17^8#5*147@
+lis|1|list_display!24&13^8#5*115@
+mod|2|model!25&9^8#5*83@model!26&9^11#5*83@
+nam|1|name!22&11^6#5*99@
+ope|1|operations!23&17^22#5*147@
+tit|1|title!21&7^5#5*67@
+url|1|url!21&7^6#5*67@
+-- END TREE
