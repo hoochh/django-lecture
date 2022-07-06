@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<div id="container">
+		<h1>Bookmark List</h1>
+		<ul>
+			{% for bookmark in urlList %}
+			<li><a href="detail?url={{bookmark.url}}">{{bookmark}}</a></li>
+			{% endfor %}
+		</ul>
+	</div>
+</body>
+</html>

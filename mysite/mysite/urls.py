@@ -18,9 +18,13 @@ from django.urls import path
 from bookmark.models import Bookmark
 from django.views.generic import ListView, DeleteView
 from django.views.generic.detail import DetailView
+from bookmark import views
+# from django.conf.urls import url
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('bookmark/', ListView.as_view(model=Bookmark),name='index'),
     path('bookmark/<int:pk>', DetailView.as_view(model=Bookmark), name='detail'),
+    path('list/',views.home),
+    path('detail/',views.detail)
 ]

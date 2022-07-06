@@ -5,7 +5,31 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2022-06-30T20:00:00Z</updated>
+  <updated>2022-07-05T09:00:00Z</updated>
+  <entry>
+    <title>This Week in Spring - July 5th, 2022</title>
+    <link rel="alternate" href="https://spring.io/blog/2022/07/05/this-week-in-spring-july-5th-2022" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2022-07-05:4846</id>
+    <updated>2022-07-05T09:00:00Z</updated>
+    <content type="html">&lt;p&gt;Hi, Spring fans! Welcome to another installment of &lt;em&gt;This Week in Spring&lt;/em&gt;! This week&amp;rsquo;s all sorts of weird for me. It&amp;rsquo;s &lt;em&gt;Tuesday&lt;/em&gt;! But here in the US we just celebrated the 4th of July, and I, like many Americans, took a long weekend. Took some time with the family to do a little road trip up north to visit Mt. Shasta, Crater Lake, Lassen National Park, etc. It was a ton of fun, and a &lt;em&gt;lot&lt;/em&gt; of driving! Anyway, it all kinda blurs together and felt like just one weekend, and today feels like Monday. I only just realized it was Tuesday! And you know what that means? It&amp;rsquo;s time for our weekly dive into the wild and wonderful world of Springdom! &lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;The last of my eight part series on &lt;a href="https://spring.io/blog/2022/06/23/spring-tips-learn-spring-for-graphql-the-last-two-episodes-parts-7-and-8"&gt;building GraphQL applications with Spring for GraphQL is up&lt;/a&gt;! Check that page out and find links to all eight videos, each of which introduces one interesting dimension of the powerful and novel new Spring for GraphQL project.&lt;/li&gt;
+  &lt;li&gt;In last week&amp;rsquo;s installment of &lt;em&gt;A Bootiful Podcast&lt;/em&gt;, I talk to &lt;a href="https://spring.io/blog/2022/06/30/a-bootiful-podcast-spring-developer-advocate-dan-vega"&gt;Spring Developer Advocate Dan Vega&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://feeds.feedblitz.com/~/700971812/0/baeldung~Processing-the-Response-Body-in-Spring-Cloud-Gateway"&gt;Processing the Response Body in Spring Cloud Gateway&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2022/06/30/spring-cloud-2020-0-6-is-available"&gt;Spring Cloud 2020.0.6 is available&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://feeds.feedblitz.com/~/701498588/0/baeldung~UUID-as-Entity-ID-in-MongoDB"&gt;UUID as Entity ID in MongoDB&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;I liked this post over on Dzone: &lt;a href="https://dzone.com/articles/are-all-kubernetes-ingresses-the-same"&gt;&lt;em&gt;Are All Kubernetes Ingresses the Same?&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Want to learn more about how to build GraalVM native images for Spring Boot 2.x-generation applications? Check out this article I wrote for &lt;a href="https://www.infoq.com/articles/native-java-spring-boot/"&gt;InfoQ on Spring Native and GraalVM&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;The good folks over at Vaadin have put together a nice tutorial on building full-stack Spring Boot applications &lt;a href="https://www.youtube.com/watch?v=WqTE94FmPu0"&gt;using their Java web framework called Hilla&lt;/a&gt; - check it out!&lt;/li&gt;
+  &lt;li&gt;our friends over at Sivalabs have put together an interesting looking tutorial &lt;a href="https://www.youtube.com/watch?v=pGbBuwzyiV4"&gt;on how to use Spring Boot and Kubernetes together&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Spring Boot team member St?phane Nicoll did a French-language presentation for &lt;a href="https://www.youtube.com/watch?v=-PuhIdo09FA"&gt;DevFest Lille recently introducing Spring AOT&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
   <entry>
     <title>A Bootiful Podcast: Spring Developer Advocate Dan Vega</title>
     <link rel="alternate" href="https://spring.io/blog/2022/06/30/a-bootiful-podcast-spring-developer-advocate-dan-vega" />
@@ -810,33 +834,6 @@ compile &amp;#39;org.springframework.cloud:spring-cloud-starter-netflix-eureka-c
     <content type="html">&lt;p&gt;On behalf of the team and everyone who has contributed, I am pleased to announce that Spring Framework &lt;code&gt;5.3.21&lt;/code&gt; is available now.&lt;/p&gt;
 &lt;p&gt;Spring Framework &lt;code&gt;5.3.21&lt;/code&gt; includes &lt;a href="https://github.com/spring-projects/spring-framework/releases/tag/v5.3.21"&gt;22 fixes and improvements&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://projects.spring.io/spring-framework/"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-framework"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-framework/issues"&gt;Issues&lt;/a&gt; | &lt;a href="https://docs.spring.io/spring-framework/docs/5.3.21/reference/html/"&gt;Documentation&lt;/a&gt;&lt;/p&gt;
-&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Tips: Learn Spring for GraphQL (parts 5 and 6 of an ongoing series)</title>
-    <link rel="alternate" href="https://spring.io/blog/2022/06/14/spring-tips-learn-spring-for-graphql-parts-5-and-6-of-an-ongoing-series" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Josh Long</name>
-    </author>
-    <id>tag:spring.io,2022-06-14:4826</id>
-    <updated>2022-06-14T07:00:00Z</updated>
-    <content type="html">&lt;p&gt;Hi, Spring fans! In thi^^^ these installments, we continue our series introducing the Spring for GraphQL project. This series features Spring for GraphQL lead &lt;a href="https://twitter.com/rstoya05"&gt;Rossen Stoyanchev (@rstoya05)&lt;/a&gt; - whose work you may know from basically everything in the wide and wonderful world of Springdom having to do with the web (HTTP, RSocket, WebSockets, GraphQL, JSF, MVC, etc) - and GraphQL Java engine founder and lead &lt;a href="https://twitter.com/andimarek"&gt;Andi Marek (@andimarek)&lt;/a&gt; and of course yours truly, Spring Developer Advocate &lt;a href="https://twitter.com/starbuxman"&gt;Josh Long (@starbuxman)&lt;/a&gt;. It provides an in-depth look at all things Spring for GraphQL.&lt;/p&gt;
-&lt;p&gt;This week I&amp;rsquo;m publishing two new installments. &lt;/p&gt;
-&lt;p&gt;The first of this week&amp;rsquo;s installments, part five of the series, looks at using GraphQL subscriptions to stream data in a way that is agnostic of the supported transport protocols: SSE, WebSockets, and RSocket. In this episode, we look at the RSocket support in particular. &lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/2paPPY9AmPw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;The second of this week&amp;rsquo;s installments, part six of the series, looks at using the Spring for GraphQL clients to talk to HTTP, WebSocket, and RSocket-powered GraphQL services. &lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/EE-5xItDfsg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;This continues the series we started last week, with episodes one and two, which I recap here: &lt;/p&gt;
-&lt;p&gt;In this first installment, we look at the basics of using the GraphQL Java engine that underpins Spring for GraphQL. &lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/gvIqFDNGgwU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;In this second installment, we look at using the Spring for GraphQL component model by writing queries. &lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/zltMcbnAxyA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;Episode three of a series, looks at batching requests with Spring for GraphQL&amp;rsquo;s &lt;code&gt;@BatchMapping&lt;/code&gt; support. This mechanism in turn builds on Facebook&amp;rsquo;s DataLoader facility. &lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/a1vZcSaicmY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;In episode four of a series, we look at how to make a change with mutations. This is one of my favorite parts about GraphQL - it&amp;rsquo;s plain, pragmatic, and - most importantly - obvious! &lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/QJAkvhG7cos" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;I&amp;rsquo;m going to be releasing every episode of this series very quickly, over the next week or two. I&amp;rsquo;ve already recorded and mostly finished producing eight episodes. I&amp;rsquo;m working on producing a ninth, and that&amp;rsquo;ll be that! A complete introduction to all things Spring for GraphQL. These are of course part of the usual &lt;a href="https://www.youtube.com/watch?v=zltMcbnAxyA&amp;list=PLgGXSWYM2FpPw8rV0tZoMiJYSCiLhPnOc"&gt;&lt;code&gt;Spring Tips&lt;/code&gt;&lt;/a&gt; playlist on YouTube, but also part of the &lt;a href="https://www.youtube.com/watch?v=gvIqFDNGgwU&amp;list=PLgGXSWYM2FpNRPDQnAGfAHxMl3zUG2Run"&gt;&lt;code&gt;Learn Spring for GraphQL with Josh Long&lt;/code&gt;&lt;/a&gt; playlist. Follow that one to be notified of any new episodes! &lt;/p&gt;
 &lt;!-- rendered by Sagan Renderer Service --&gt;</content>
   </entry>
 </feed>

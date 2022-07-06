@@ -1,0 +1,15 @@
+MODULES_MANAGER_V3
+board.__init__|C:\LYK\work\django\pyweb_board\board\__init__.py
+board.admin|C:\LYK\work\django\pyweb_board\board\admin.py
+board.apps|C:\LYK\work\django\pyweb_board\board\apps.py
+board.migrations.0001_initial|C:\LYK\work\django\pyweb_board\board\migrations\0001_initial.py
+board.migrations.__init__|C:\LYK\work\django\pyweb_board\board\migrations\__init__.py
+board.models|C:\LYK\work\django\pyweb_board\board\models.py
+board.tests|C:\LYK\work\django\pyweb_board\board\tests.py
+board.views|C:\LYK\work\django\pyweb_board\board\views.py
+manage|C:\LYK\work\django\pyweb_board\manage.py
+pyweb_board.__init__|C:\LYK\work\django\pyweb_board\pyweb_board\__init__.py
+pyweb_board.asgi|C:\LYK\work\django\pyweb_board\pyweb_board\asgi.py
+pyweb_board.settings|C:\LYK\work\django\pyweb_board\pyweb_board\settings.py
+pyweb_board.urls|C:\LYK\work\django\pyweb_board\pyweb_board\urls.py
+pyweb_board.wsgi|C:\LYK\work\django\pyweb_board\pyweb_board\wsgi.py
