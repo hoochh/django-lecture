@@ -1,0 +1,8 @@
+from django.shortcuts import render
+from board import Board
+
+# Create your views here.
+def list(request):
+    boardCount=Board.objects.count() 
+    boardList=Board.objects.all().order_by("-idx")
+    return render(request,"board/ist.html", {"boardList":boardList, "boardCount":boardCount})
