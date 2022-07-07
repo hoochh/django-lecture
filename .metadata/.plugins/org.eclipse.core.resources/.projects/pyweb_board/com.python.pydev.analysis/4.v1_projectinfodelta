@@ -1,0 +1,14 @@
+INSTUPboard.views
+C:\LYK\work\django\pyweb_board\board\views.py
+INFOS:&&3|1|2|0|3|12|1&&2|4|2|0|3|19|5&&2|5|2|0|3|90|5&&2|6|2|0|3|95|5&&2|7|2|0|3|119|5&&2|8|2|0|3|130|5&&2|9|2|0|3|145|5&&2|10|2|0|3|153|5&&2|11|2|0|3|175|5
+board.views=2
+download=8
+C:\LYK\work\django\pyweb_board\board\views.py=3
+insert=6
+update=10
+detail=7
+reply_insert=9
+list=4
+write=5
+delete=11
+UPLOAD_DIR=1
