@@ -24,3 +24,10 @@ class Comment(models.Model): #댓글 글번호
     writer=models.CharField(null=False,max_length=50) 
     content=models.TextField(null=False)
     post_date=models.DateTimeField(default=datetime.now,blank=True)
+    
+#영화
+class Movie(models.Model):
+    idx=models.AutoField(primary_key=True)
+    title=models.CharField(null=False,max_length=500)
+    content=models.TextField(null=False)
+    point=models.IntegerField(default=0)

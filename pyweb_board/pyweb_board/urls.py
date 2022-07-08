@@ -18,6 +18,11 @@ from django.urls import path
 from board import views
 
 urlpatterns = [
+    path('',views.home),
+    path('movie_save/',views.movie_save),
+    path('chart/',views.chart),
+    path('wordcloud/',views.wordcloud),
+    path('cctv_map/',views.cctv_map),
     path('admin/',admin.site.urls),
     path('list/',views.list),
     path('write/',views.write),

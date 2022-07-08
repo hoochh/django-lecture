@@ -1,5 +1,5 @@
 from django.shortcuts import render, redirect
-from board.models import Board,Comment
+from board.models import Board,Comment,Movie
 from django.views.decorators.csrf import csrf_exempt
 # from django.utils.http import urlquote
 from django.http.response import HttpResponse, HttpResponseRedirect
@@ -7,10 +7,47 @@ from django.db.models import Q
 
 import os
 import math
-from Demos.mmapfile_demo import page_size
+from board import BigDataPro
+import pandas as pd
+from django.db.models.aggregates import Avg
 
 UPLOAD_DIR='C:/LYK/work/django/upload/'
 # Create your views here.
+
+def home(request):
+    return render(request,'main.html')
+
+
+def movie_save(request):
+    data=[]
+    BigDataPro.movie_crawling(data)
+    # 하나씩 저장
+    for row in data:
+        dto=Movie(title=row[0],point=row[1],content=row[2])
+        dto.save()
+        
+    return redirect('/')
+    
+
+def chart(request):
+    data=Movie.objects.values('title').annotate(point_avg=Avg('point')).order_by('point_avg')[0:20]
+    # title의 value 값으로 group_by 하여 point의 평균을 구함 -> annotate 하여 그 변수로 둔다
+    # order_by로 역순 정렬 10개만 가져옴 
+    df=pd.DataFrame(data)
+    BigDataPro.makeGraph(df.title, df.point_avg)
+    return render(request, 'bigdata_pro/chart.html',{'data':data})
+
+def wordcloud(request):
+    content=Movie.objects.values('content')
+    df=pd.DataFrame(content)
+    BigDataPro.makeWordCloud(df.content)
+    return render(request,'bigdata_pro/wordcloud.html',{'content':df.content})
+
+def cctv_map(request):
+    BigDataPro.cctv_map()
+    return render(request, 'map/map01.html')
+    
+    
 # def list(request):
 #     boardCount=Board.objects.count() 
 #     boardList=Board.objects.all().order_by("-idx")
