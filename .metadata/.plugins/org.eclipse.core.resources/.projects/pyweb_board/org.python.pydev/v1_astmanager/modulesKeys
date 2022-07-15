@@ -1,4 +1,5 @@
 MODULES_MANAGER_V3
+board.BigDataPro|C:\LYK\work\django\pyweb_board\board\BigDataPro.py
 board.__init__|C:\LYK\work\django\pyweb_board\board\__init__.py
 board.admin|C:\LYK\work\django\pyweb_board\board\admin.py
 board.apps|C:\LYK\work\django\pyweb_board\board\apps.py
