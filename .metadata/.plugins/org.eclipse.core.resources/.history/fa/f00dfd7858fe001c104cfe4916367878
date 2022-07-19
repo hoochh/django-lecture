@@ -1,0 +1,34 @@
+'''
+Created on 2022. 7. 8.
+
+@author: admin
+'''
+
+
+import requests
+from bs4 import BeautifulSoup
+
+def movie_crawling(data):
+    for i in range(1,101):
+        base='https://movie.naver.com/movie/point/af/list.naver?&page='
+        url=base+str(i) # 1~100 페이지까지의 리뷰를 가져옴
+        req=requests.get(url)
+        if req.ok:
+            html=req.text # text는 html 태그
+            soup=BeautifulSoup(html,'html.parser')
+            titles=soup.select('.title > a.movie')
+            points=soup.select('.title em')
+            contents=soup.select('.title')
+            n=len(titles)
+            
+            for i in range(n):
+                title=titles[i].get_text()
+                point=points[i].get_text()
+                contentArr=contents[i].get_text().replace('신고','').split('\n\n')
+                content=contentArr[2].replace('\t','').replace('\n','')
+                # list로 저장
+                # data.append([title, point, content])
+                
+                # DB 저장시 튜플 형태로
+                data.append((title, point, content))
+                print(title, point, content)

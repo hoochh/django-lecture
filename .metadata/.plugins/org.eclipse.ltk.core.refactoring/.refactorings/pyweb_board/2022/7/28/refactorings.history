@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;pyweb_board/board/templates/board/list.html&apos; to &apos;list2.html&apos;" description="Rename resource &apos;list.html&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="board/templates/board/list.html" name="list2.html" stamp="1657157686002" updateReferences="true"/>
+</session>

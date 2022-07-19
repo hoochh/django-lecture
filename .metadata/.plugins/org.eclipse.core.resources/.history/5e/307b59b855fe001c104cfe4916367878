@@ -1,0 +1,19 @@
+'''
+Created on 2022. 7. 8.
+
+@author: admin
+'''
+
+
+import requests
+from bs4 import BeautifulSoup
+
+def movie_crawling(data):
+    for i in range(1,101):
+        base='https://movie.naver.com/movie/point/af/list.naver?&page='
+        url=base+str(i) # 1~100 페이지까지의 리뷰를 가져옴
+        req=requests.get(url)
+        if req.ok:
+            html=req.text # text는 html 태그
+            soup=BeautifulSoup(html,'html.parser')
+            

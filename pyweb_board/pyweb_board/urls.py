@@ -18,11 +18,22 @@ from django.urls import path
 from board import views
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('list/', views.list),
+    path('',views.home),
+    path('movie_save/',views.movie_save),
+    path('chart/',views.chart),
+    path('wordcloud/',views.wordcloud),
+    path('cctv_map/',views.cctv_map),
+    path('admin/',admin.site.urls),
+    path('list/',views.list),
     path('write/',views.write),
     path('insert/',views.insert),
     path('detail/',views.detail),
+    path('download/',views.download),
+    path('reply_insert/',views.reply_insert),
+    path('update/',views.update),
+    path('delete/',views.delete),
 ]
 
 # views.py에서 list를 먼저 생성한 후 작성해야 에러가 뜨지 않음
+# reply_insert/ 와 같이 슬래쉬를 붙이기 때문에 
+# action도 /reply_insert/, return url도 /를 붙여야 함
